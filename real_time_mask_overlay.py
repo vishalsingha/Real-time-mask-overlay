@@ -5,7 +5,7 @@ import face_recognition
 import matplotlib.pyplot as plt
 
 # load overlay image
-img_overlay_orig = cv2.imread("C:\\Users\\Vipul Singh\\Desktop\\face_mask_c.png", cv2.IMREAD_UNCHANGED)
+img_overlay_orig = cv2.imread("mask.png", cv2.IMREAD_UNCHANGED)
 
 # initialize camara
 cam = cv2.VideoCapture(0)
